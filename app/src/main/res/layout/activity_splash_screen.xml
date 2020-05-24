@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5F5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashScreenActivity">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imgsplash"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/Logo"
+        app:civ_border_color="#F8F5F5"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Loading..."
+        android:textAlignment="center"
+        android:textColor="#232121"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
